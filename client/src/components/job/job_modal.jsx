@@ -4,7 +4,7 @@ const JobModal = ({ jobInfo, onClick }) => {
   const { companyLogo, companyName, jobTitle, jobLocation, jobType, postedDate } = jobInfo;
 
   return (
-    <div className=" bg-white p-6 rounded-md shadow-md flex items-center justify-around hover:cursor-pointer" onClick={onClick}>
+    <div className=" bg-white p-4 shadow-md flex items-center justify-around hover:cursor-pointer" onClick={onClick}>
       <div className="flex flex-col justify-center items-center">
         {/* Company Logo */}
         <img
