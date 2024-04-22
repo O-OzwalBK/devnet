@@ -1,6 +1,5 @@
 import React from "react";
 const EventModal = ({ event, onClick }) => {
-
   return (
     <div
       className="bg-white rounded-lg shadow-lg mb-3 relative w-full cursor-pointer"
